@@ -1,0 +1,37 @@
+{
+    "name": "firebender/robo",
+    "description": "robo",
+    "type": "robo-tasks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Arabia"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FireBender\\Robo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FireBender\\Robo\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "consolidation/robo": "^3.0",
+        "nelexa/zip": "^4.0",
+        "spatie/temporary-directory": "^2.0",
+        "symfony/console": "^5.4",
+        "symfony/filesystem": "^6.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
